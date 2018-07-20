@@ -11,7 +11,7 @@ window.onload = function() {
 	alert("password not given");
 	else
 	console.log('clicked' , input1.value , input2.value);
-	alert("login succeful");
+	
 	
 
 }

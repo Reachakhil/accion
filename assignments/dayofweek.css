@@ -1,0 +1,20 @@
+body{
+	margin: 5 auto;
+	background-color:red;
+	display: flex;  /*for complete form body to bring in centre     */
+justify-content: center;
+	align-items: center; 
+	font-size: 32px;
+}	
+.div1{
+margin: 5 auto;
+width: 350px;
+border: 1px solid #d9d9d9;
+box-shadow: 6px 2px 14px 0px #d9d9d9;
+	background-color:#AC7A38;
+	display: flex;
+	align-items: center; 
+	font-size: 32px;
+	align-items: center;
+
+}
