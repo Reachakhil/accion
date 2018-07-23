@@ -22,7 +22,7 @@
 			break;
 		}
 	}
-	output.innerHTML = result;
+	output.innerHTML = "The first non-Repeated character is:"+result;
 
 }
 }

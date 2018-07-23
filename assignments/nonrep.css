@@ -1,0 +1,10 @@
+body{
+	background-color: FFA500;
+	display:flex;
+	font-size: 32px;
+	align-items: flex-start; 
+}
+
+#id{
+	color:#008080;
+}
