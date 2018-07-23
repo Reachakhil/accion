@@ -12,7 +12,7 @@ location.href = 'index.html';
 var isValid = function() {
 console.log('clicked', name.value, password.value);
 var errNameRef = document.getElementById("js-name-err-msg");
-var errPasswordRef = document.getElementById("js-password-err-msg");
+var errPasswordRef = document.getElementById("js-pass-err-msg");
 var match = name.value.match(/[A-Z0-9_]+@[a-z0-9]+\.[a-z]{2,3}/i);
 if(!match) {
 errNameRef.innerHTML = "Enter Valid email id";
