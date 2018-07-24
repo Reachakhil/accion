@@ -1,13 +1,13 @@
 body {
-margin: 0 auto;
-display: flex;
+margin: 0 auto;  
+display: flex;/*will affect the child login layout*/ 
 background-color:151313;
 align-items: center;  /*for complete form body to bring in centre     */
 justify-content: center;
 font-size: 32px;	
 }
 .login-layout {
-display: flex;
+display: flex;  /*apply to child of login layout*/
 align-items: center;
 justify-content: center;
 background-color:808000;
