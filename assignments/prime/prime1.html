@@ -3,11 +3,36 @@
 	<script>
 		function findprime()
 		{
+
+
 			
 			var inp=document.getElementById("input1").value;
+			if(isprime(inp))
+			{
+				document.getElementById("res1").innerHTML="prime is"+ inp;
+			}
+			else{
+
 			document.getElementById("res1").innerHTML="prev prime is"+prevprime(inp);
 			document.getElementById("res").innerHTML="next prime is"+nextprime(inp);
+		    }
 			//document.getElementById("res1").innerHTML="hello aslo";
+
+
+
+			function isprime(inp)
+			{
+				for(var i=2;i<inp/2;i++)
+				{
+					if(inp%i==0){
+						return false;
+					}
+					else{
+						return true;
+					}
+				}
+
+			}
 			function prevprime(inp)
 			{
 				var temp=inp-1;
@@ -36,7 +61,7 @@
 					}
 			}
 			return inp;
-			#added a line 
+			
 		}
 }	
 
@@ -54,3 +79,4 @@
 	</div>
 
 </body>
+
