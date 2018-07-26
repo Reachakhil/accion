@@ -1,4 +1,37 @@
 body{
 
 	background-color: #C0392B;
+	margin: 0 auto;  
+display: flex;/*will affect the child login layout*/ 
+align-items: center;  /*for complete form body to bring in centre     */
+justify-content: center;
+font-size: 32px;
+}
+
+button
+{
+
+	border-radius: 90%;
+	 background-color: #17202A;
+	 color: white;
+	  border: 4px solid #17202A;
+}
+
+#div1{
+	
+
+display: flex;  /*apply to child of login layout*/
+align-items: center;
+justify-content: center;
+background-color:808000;
+flex-direction: column;
+border: 1px solid #d9d9d9;
+box-shadow: 6px 2px 14px 0px #d9d9d9;
+max-width: 400px;
+width: 400px;
+max-height: 400px;
+height: 400px;
+
+
+
 }
