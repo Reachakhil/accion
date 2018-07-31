@@ -1,14 +1,80 @@
 body{
 	background-color: #CD5C5C;
-	color:red;
 	diplay:flex;
-	align-items: flex-end;
+	align-items: center;
 	justify-content: center;	
 	font-size: 32px;
-	margin-left: 10px;
-	margin-top:  30px;	
+	margin: 0 auto;
 }
 
 h1{
-	color:#1C2833  ;
+	    font-family: Arial, Helvetica, sans-serif;
+	    color:black;
+	    font-size:50px;
 }
+
+.button {
+  padding: 15px 25px;
+  font-size: 8px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  width:80px;
+}
+#img{
+	width:630px;height:150px;
+	position:relative;
+	margin-left: 10px;
+}
+#imgid{
+	bottom:5px;
+	position:static;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.main{
+color:black;
+diplay:flex;
+background-color: #2C3E50;
+align-items: center;
+justify-content: center;
+flex-direction:column;	
+font-size: 32px;
+margin-left: 10px;
+margin-top:  30px;
+border: 1px solid black;
+margin-left: 10px;
+max-width:800px;
+width: 800px;
+max-height: 300px;
+height: 300px;
+box-shadow: 6	px 2px 14px 0px #d9d9d9;
+}
+input{
+	border: 5px black; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+
