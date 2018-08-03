@@ -1,0 +1,65 @@
+body{
+	background-color: #CD5C5C;
+	color:red;
+	display:flex;
+	align-items: center;
+	justify-content: center;	
+	font-size: 32px;
+	margin-left: 10px;
+	margin-top:  30px;	
+}
+button{
+
+background-color: #273746  ; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.id1{
+
+align-items: center;
+	justify-content: center;
+	align-items: flex-top;
+	font-size: 32px;
+	margin-left: 10px;
+	margin-top:20;
+background-color: black;
+  box-shadow: 5px 10px 5px 10px	 black;
+
+}
+input{
+
+	border: 5px; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+img{
+	height: 100px;width: 100px;
+}
+#p1{
+	position:absolute;
+	top:150px;
+	left:550px;
+	color:black;
+font-family: 'Do Hyeon', sans-serif;	
+font-size:50px;
+
+}
+
+

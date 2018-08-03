@@ -1,6 +1,6 @@
 body{
 
-	background-color: #C0392B;
+	background-image:url("Blue-Pattern.jpg");
 	margin: 0 auto;  
 display: flex;/*will affect the child login layout*/ 
 align-items: center;  /*for complete form body to bring in centre     */
@@ -23,7 +23,7 @@ button
 display: flex;  /*apply to child of login layout*/
 align-items: center;
 justify-content: center;
-background-color:808000;
+background-color:#D0D3D4;
 flex-direction: column;
 border: 1px solid #d9d9d9;
 box-shadow: 6px 2px 14px 0px #d9d9d9;

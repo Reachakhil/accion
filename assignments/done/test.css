@@ -1,0 +1,12 @@
+.row{
+		background-color: pink;
+		border: 1px solid black;
+
+	}
+#header{
+	position:relative;
+	text-align:center;
+	font-size: 52px;
+	
+
+}

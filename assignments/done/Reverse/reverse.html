@@ -1,0 +1,28 @@
+<html>
+<head>
+
+	<link rel="stylesheet" href="reverse.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+<script>
+
+function reverse1(){
+	var output = document.getElementById("id1");
+	var num = document.getElementById("input1").value;
+	var revNum = num.split("").reverse().join(" ");
+	output.innerHTML = revNum;
+
+}
+</script>
+</head>
+<body>
+
+		<div id="header1">
+		<h3 style="font-family: 'Roboto Mono', monospace;"> REVERSE NUMBER </h3>
+		</div>
+<div class="main1">
+  <input id="input1" placeholder="Enter string to reverse">
+<button class="btn" onclick="reverse1()">Check</button></br></br>
+<p id="id1"></p>
+</div>
+</body>
+</html>
