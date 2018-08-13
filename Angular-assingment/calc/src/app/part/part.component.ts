@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PartComponent implements OnInit {
   inp="";
-  inp1=1;
+  result1="";
+
   onclick(value:any){
     console.log(value);
 
@@ -15,7 +16,11 @@ export class PartComponent implements OnInit {
   }
 
   result(){
-    
+    this.result1=eval(this.inp)
+    this.inp=this.result1;
+  }
+  clear(){
+    this.inp= '0';
   }
 
   constructor() { }

@@ -1,7 +1,7 @@
 <div class="container">
     <div class="col-sm-4"><h1>CALC</h1><hr>
      <!-- <div> {{ inp }}</div> -->
-      <input [(ngModel)]="inp"  class="form-control input-lg" type="text"  />
+      <input [(ngModel)]="inp"  class="form-control input-lg" type="text" />
       <table [ngStyle] = "{'backgroundColor':'blue'}"class="table table-bordered">
         <tr>
           <td><button  id="1" value="1" (click)="onclick(1)"  class="btn btn-primary" >1</button></td>
@@ -21,7 +21,7 @@
             <tr>
                 <td><button (click)="onclick('.')" class="btn btn-primary" >.</button></td>
                 <td><button (click)="onclick(0)" class="btn btn-primary" >0</button></td>
-                <td><button class="btn btn-primary" >C</button></td>
+                <td><button (click)="clear()" class="btn btn-primary" >C</button></td>
               </tr>
               <tr>
                   <td><button (click)="onclick('+')"  class="btn btn-primary" >+</button></td>
@@ -33,6 +33,7 @@
                     <td><button (click)="result()" class="btn btn-primary" >=</button></td>
                   </tr>
       </table>
+          
     </div>
 
 
