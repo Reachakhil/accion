@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<link rel=stylesheet href="timezone1.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+	</head>
+<body >
+<div class="id1">
+<h3>Click here to check he time difference between UTC and local time.</h3>
+
+<button onclick="myFunction()">Try it</button>
+
+
+</div>
+
+<div id="id2">  <p id="demo"></p></div>
+<script>
+function myFunction() {
+    var d = new Date();
+    var n = d.getTimezoneOffset();
+    var hours=(n)/60;
+    document.getElementById("demo").innerHTML = hours+"hours";
+}
+</script>
+
+</body>
+</html>
+

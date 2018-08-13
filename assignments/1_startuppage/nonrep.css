@@ -1,0 +1,60 @@
+body{
+margin: 0 auto;
+display: flex;
+background-image: url('samuel-ferrara-318709-unsplash.jpg');
+align-items: center;  /*for complete form body to bring in centre     */
+justify-content: center;
+font-size: 32px;
+}
+h6{
+position:absolute;
+top:10px;
+color:#F7DC6F  ;
+}
+input{
+
+    border: 5px; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+}
+
+.id1{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border: 1px solid #d9d9d9;
+box-shadow: 6px 2px 14px 0px #d9d9d9;
+max-width: 400px;
+width: 400px;
+max-height: 400px;
+height: 900px;
+border-radius: 40%;
+}
+#btn{
+
+background-color: #273746  ; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#output{
+	color:#17202A;
+	size: 32px;
+	margin: 10px 20px 30px 40px;
+	}

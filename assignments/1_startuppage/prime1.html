@@ -1,0 +1,51 @@
+<html>
+<head>
+	<link rel="stylesheet" href="prime1.css">
+<link href="https://fonts.googleapis.com/css?family=Do+Hyeon" rel="stylesheet">
+
+	<script>
+	window.onload = function(){
+    var button = document.getElementById("btn");
+var number = document.getElementById("input1");
+button.onclick = function(){
+    var flag=1,n=number.value;
+    for(var i=number.value-1; i>=2;i--){
+        flag = 1;
+        for(var j=2;j<i/2;j++){
+            if(i%j==0)
+                flag = 0;
+
+        }
+    if(flag){
+        document.getElementById("res").innerHTML="PREVIOUS:"+i;
+        break;
+    }    
+    }
+    n++;
+    for(i=n;  ;i++){
+        flag = 1;
+        for(j=2;j<i/2;j++){
+            if(i%j==0)
+                flag = 0;
+        }
+    if(flag){
+         document.getElementById("res1").innerHTML="NEXT:"+i;       
+          break;
+    }}
+}
+}	
+
+	</script>
+</head> 
+
+<body>
+	<div id="div1"> 
+		<p style="font-family: 'Do Hyeon', sans-serif"> NEXT PRIME NUMBER:</p>
+		<input id="input1"/>
+		<button id="btn"> check </button>
+		<p id="res">  </p>
+		<p id = "res1" > </p>
+	</div>
+
+</body>
+

@@ -1,0 +1,52 @@
+body{
+margin: 0 auto;
+display: flex;
+align-items: center;  /*for complete form body to bring in centre     */
+justify-content: center;
+font-size: 32px;
+background-color: #D0D3D4
+}
+button {
+  padding: 15px 25px;
+  font-size: 28px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 9px #999;
+  margin-left:10px;
+}
+#text1{
+  position:absolute;
+  top:150px;
+  text-align: center;
+  font-size:  32px;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+input{
+
+    border: 5px; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    padding: 15px;
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;
+    font-size:32px;
+}

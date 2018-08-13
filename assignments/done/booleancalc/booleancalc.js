@@ -1,23 +1,26 @@
-function result1() {
-var input1=document.getElementById("id1");
-var input2=document.getElementById("id2");
-var res='';
+window.onload=function(){
 
-var button = document.getElementById("submit");
-var btn2 =  document.getElementById("btn2");
+   var input1 = document.getElementById("input1");
+   var input2 = document.getElementById("input2");
+   var and = document.getElementById("and");
+   var or = document.getElementById("or");
+   var not = document.getElementById("not");
+   var output = document.getElementById("output");
+
+   and. ("click", function(){
+      var result = (input1.value && input2.value);
+      output.innerHTML = result;
+   });
 
 
+   or.addEventListener("click", function(){
+      var result = (input1.value || input2.value);
+      output.innerHTML = result;
+   });
 
-if(button.value== 'on'){
- res= (input1.value|input2.value);
- console.log(button.value);
+   not.addEventListener("click", function(){
+      var result = !(input1.value);
+      output.innerHTML = result;
+   });
 
-}
-
-else if(btn2.value== 'on'){
-	var res= (input1.value&input2.value);
-	console.log(button.value);
-	
-}
-document.getElementById("result").innerHTML="The result is"+res;
 }
