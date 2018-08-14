@@ -8,22 +8,45 @@ import { Component, OnInit } from '@angular/core';
 export class PartComponent implements OnInit {
   inp="";
   result1="";
+  cur="";
+  flag=false;
+  status=true;
 
   onclick(value:any){
-    console.log(value);
-
+    if(this.flag){
+      this.inp="";
+      this.flag=false;
+    }
+   if(value == 'C')
+   {
+     this.inp="";
+   }
+   else if(value == '='){
+     this.flag=true;
+    this.result1=eval(this.inp)
+    this.inp=this.result1;
+   }
+   else{
+     if(this.inp == '0'){
+       this.inp=this.inp + value;
+     }
+    else{
     this.inp= this.inp + value;
+  }
+}
   }
 
   result(){
-    this.result1=eval(this.inp)
-    this.inp=this.result1;
+  
   }
   clear(){
-    this.inp= '0';
+    
+    this.inp="";
   }
 
-  constructor() { }
+  constructor() { 
+    
+  }
 
   ngOnInit() {
   }
